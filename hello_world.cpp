@@ -1,12 +1,11 @@
 #include <iostream>
 #include <string>
-using namespace std;
 int main()
 {
 String name;
-cout<<"Write your name:";
-cin>>name;
-cout<<"Hello, world!!!"<<name<<endl;
+std::cout<<"Write your name:";
+std::cin>>name;
+std::cout<<"Hello, world!!!"<<name<<std::endl;
 return 0;
 }
 
