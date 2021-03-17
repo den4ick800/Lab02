@@ -1,7 +1,12 @@
 #include <iostream>
+#include <string>
 using namespace std;
 int main()
 {
-cout<<"Hello, world!!!"<<endl;
+String name;
+cout<<"Write your name:";
+cin>>name;
+cout<<"Hello, world!!!"<<name<<endl;
 return 0;
 }
+
