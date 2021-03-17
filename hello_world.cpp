@@ -13,9 +13,9 @@ main()
 =======
 int main()
 {
-String name;
+String name_1;
 std::cout<<"Write your name:";
-std::cin>>name;
+std::cin>>name_1;
 std::cout<<"Hello, world!!!"<<name<<std::endl;
 return 0;
 >>>>>>> hello_world delete std
