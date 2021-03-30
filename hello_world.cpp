@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-<<<<<<< HEAD
 using namespace std;
 int
 main()
@@ -10,7 +9,6 @@ main()
   cin >> name;
   cout << "Hello, world!!!" << name << endl;
   return 0;
-=======
 int main()
 {
 //create for getting name
@@ -21,5 +19,4 @@ std::cin>>name_1;
 //write answer
 std::cout<<"Hello, world!!!"<<name<<std::endl;
 return 0;
->>>>>>> hello_world delete std
 }
