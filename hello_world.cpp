@@ -1,5 +1,14 @@
 #include <iostream>
 #include <string>
+using namespace std;
+int
+main()
+{
+  String name;
+  cout << "Write your name:";
+  cin >> name;
+  cout << "Hello, world!!!" << name << endl;
+  return 0;
 int main()
 {
 //create for getting name
@@ -11,4 +20,3 @@ std::cin>>name_1;
 std::cout<<"Hello, world!!!"<<name<<std::endl;
 return 0;
 }
-
